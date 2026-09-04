@@ -1,0 +1,79 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100">
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="900" y="50" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Warehouse Management &amp; Logistics App - Architecture Baseline
+</text>
+
+<!-- Users -->
+<rect x="80" y="120" width="320" height="180" rx="15" fill="white" stroke="black" stroke-width="3"/>
+<text x="240" y="155" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">Users</text>
+<text x="240" y="195" text-anchor="middle" font-family="Arial" font-size="18">Warehouse Associate</text>
+<text x="240" y="225" text-anchor="middle" font-family="Arial" font-size="18">Inventory Controller</text>
+<text x="240" y="255" text-anchor="middle" font-family="Arial" font-size="18">Logistics Coordinator</text>
+<text x="240" y="285" text-anchor="middle" font-family="Arial" font-size="18">Operations Manager</text>
+
+<!-- Salesforce -->
+<rect x="600" y="120" width="600" height="400" rx="15" fill="white" stroke="black" stroke-width="3"/>
+<text x="900" y="160" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Salesforce</text>
+
+<text x="900" y="205" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Planned Entities</text>
+<text x="900" y="240" text-anchor="middle" font-family="Arial" font-size="17">Warehouse • Zone • Bin • Product</text>
+<text x="900" y="270" text-anchor="middle" font-family="Arial" font-size="17">Inventory Item • Stock Movement</text>
+<text x="900" y="300" text-anchor="middle" font-family="Arial" font-size="17">Shipment • Carrier Event</text>
+
+<text x="900" y="350" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Data &amp; Actions</text>
+<text x="900" y="385" text-anchor="middle" font-family="Arial" font-size="17">Receiving → Putaway → Counting</text>
+<text x="900" y="415" text-anchor="middle" font-family="Arial" font-size="17">Replenishment → Picking → Packing</text>
+<text x="900" y="445" text-anchor="middle" font-family="Arial" font-size="17">Shipping → Exception Handling</text>
+
+<text x="900" y="485" text-anchor="middle" font-family="Arial" font-size="17">Security, Automation, Reporting</text>
+
+<!-- Future Integration -->
+<rect x="80" y="430" width="320" height="180" rx="15" fill="white" stroke="black" stroke-width="3"/>
+<text x="240" y="470" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold">Future Integration</text>
+<text x="240" y="510" text-anchor="middle" font-family="Arial" font-size="18">Carrier / Shipping System</text>
+<text x="240" y="545" text-anchor="middle" font-family="Arial" font-size="18">External Events</text>
+<text x="240" y="580" text-anchor="middle" font-family="Arial" font-size="18">API / Integration Boundary</text>
+
+<!-- Future Agent -->
+<rect x="1400" y="120" width="320" height="180" rx="15" fill="white" stroke="black" stroke-width="3"/>
+<text x="1560" y="160" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold">Future Agent</text>
+<text x="1560" y="200" text-anchor="middle" font-family="Arial" font-size="18">Operational Assistant</text>
+<text x="1560" y="235" text-anchor="middle" font-family="Arial" font-size="18">Exception Support</text>
+<text x="1560" y="270" text-anchor="middle" font-family="Arial" font-size="18">Decision Assistance</text>
+
+<!-- Entity classification -->
+<rect x="600" y="590" width="1120" height="360" rx="15" fill="white" stroke="black" stroke-width="3"/>
+<text x="1160" y="630" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold">Entity Classification</text>
+
+<text x="630" y="675" font-family="Arial" font-size="18" font-weight="bold">Standard Object Candidates:</text>
+<text x="900" y="675" font-family="Arial" font-size="18">Product, Shipment</text>
+
+<text x="630" y="725" font-family="Arial" font-size="18" font-weight="bold">Custom Object Candidates:</text>
+<text x="930" y="725" font-family="Arial" font-size="18">Warehouse, Zone, Bin, Inventory Item, Stock Movement</text>
+
+<text x="630" y="775" font-family="Arial" font-size="18" font-weight="bold">External Object Candidate:</text>
+<text x="930" y="775" font-family="Arial" font-size="18">Carrier Event</text>
+
+<text x="630" y="825" font-family="Arial" font-size="18" font-weight="bold">File / Document Concept:</text>
+<text x="930" y="825" font-family="Arial" font-size="18">Shipping / operational documents</text>
+
+<!-- Flows -->
+<line x1="400" y1="210" x2="600" y2="210" stroke="black" stroke-width="4"/>
+<polygon points="600,210 580,200 580,220" fill="black"/>
+<text x="500" y="195" text-anchor="middle" font-family="Arial" font-size="16">User Actions</text>
+
+<line x1="1200" y1="210" x2="1400" y2="210" stroke="black" stroke-width="4"/>
+<polygon points="1400,210 1380,200 1380,220" fill="black"/>
+<text x="1300" y="195" text-anchor="middle" font-family="Arial" font-size="16">Data / Actions</text>
+
+<line x1="400" y1="520" x2="600" y2="430" stroke="black" stroke-width="4"/>
+<polygon points="600,430 575,435 585,455" fill="black"/>
+<text x="490" y="475" text-anchor="middle" font-family="Arial" font-size="16">Integration Flow</text>
+
+<line x1="900" y1="520" x2="900" y2="590" stroke="black" stroke-width="4"/>
+<polygon points="900,590 890,570 910,570" fill="black"/>
+<text x="950" y="560" font-family="Arial" font-size="16">Data Flow</text>
+
+</svg>
